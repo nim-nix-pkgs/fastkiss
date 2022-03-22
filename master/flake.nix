@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fastkiss-master.flake = false;
+  inputs.src-fastkiss-master.ref   = "refs/heads/master";
   inputs.src-fastkiss-master.owner = "mrhdias";
-  inputs.src-fastkiss-master.ref   = "master";
   inputs.src-fastkiss-master.repo  = "fastkiss";
   inputs.src-fastkiss-master.type  = "github";
   
