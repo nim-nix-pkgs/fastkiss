@@ -11,7 +11,6 @@
   inputs.src-fastkiss-master.ref   = "refs/heads/master";
   inputs.src-fastkiss-master.owner = "mrhdias";
   inputs.src-fastkiss-master.repo  = "fastkiss";
-  inputs.src-fastkiss-master.dir   = "";
   inputs.src-fastkiss-master.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";
